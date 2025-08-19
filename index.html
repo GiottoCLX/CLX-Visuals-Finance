@@ -271,11 +271,13 @@
     </div>
   </div>
 
-  <!-- ganz unten vor </body> -->
-<script src="config.js"></script>
-<script src="app.js" defer></script>
+<!-- Bibliotheken (genau einmal laden) -->
+<script defer src="https://unpkg.com/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+<!-- Projekt -->
+<script defer src="config.js?v=3"></script>
+<script defer src="app.js?v=3"></script>
 </body>
 </html>
 
-</body>
-</html>
